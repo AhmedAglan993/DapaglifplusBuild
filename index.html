@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
 
-<script src = blippar-webar-sdk.....
+<script src = "sdk/blippar-webar-sdk-v1.4.2/blippar/webar-sdk-v1.4.2.min.js?license-key=ff315a32-2888-41bf-b550-80122828a035"
 webar-mode="surface-tracking"
     auto-start="false"
     auto-init="true"
@@ -55,14 +55,14 @@ issue-img-height="116px"
 
 var Yrotvalue = undefined;
 var UNITYINSTANCE = undefined;
-const cameraObjectName = "";
-const stageObjectName = "";
+const cameraObjectName = "webarCamera";
+const stageObjectName = "webarStage";
       const buildUrl = "Build";
-      const loaderUrl = buildUrl + "/DapaglifplusBuild.loader.js";
+      const loaderUrl = buildUrl + "/WebAR-DapaglifPlus.loader.js";
       const config = {
-        dataUrl: buildUrl + "/DapaglifplusBuild.data.unityweb",
-        frameworkUrl: buildUrl + "/DapaglifplusBuild.framework.js.unityweb",
-        codeUrl: buildUrl + "/DapaglifplusBuild.wasm.unityweb",
+        dataUrl: buildUrl + "/WebAR-DapaglifPlus.data.unityweb",
+        frameworkUrl: buildUrl + "/WebAR-DapaglifPlus.framework.js.unityweb",
+        codeUrl: buildUrl + "/WebAR-DapaglifPlus.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "DapaglifPlus",
